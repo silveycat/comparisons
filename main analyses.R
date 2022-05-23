@@ -1,6 +1,5 @@
 # analysis code for 'Children’s early spontaneous comparisons predict 
 # later analogical reasoning skills: an investigation of parental influence'
-# https://github.com/silveycat/comparisons
 
 # get required packages
 required_packages <- c("dplyr", "ggplot2", "mice", "plotrix", "lm.beta", "lmer")
@@ -20,9 +19,7 @@ library(lm.beta)
 # for mixed-effects models
 library(lme4)
 
-# set working directory
-
-setwd('/Users/catrionasilvey/Documents/academic/uchicago/comparisons/')
+# set working directory here
 
 # AIM 2: CHILD-CHILD INFERENTIAL ANALYSES
 
